@@ -10,5 +10,7 @@ Keywords: water hyacinths, remote sensing, invasive plant, eutrophication, hydro
 ![image](https://user-images.githubusercontent.com/48392221/130446716-22147c30-88b0-40f3-869b-f3266ab73d06.png)
 
 ## About the data
+The detection tool uses Sentinelhub API and the Sentinel-2 Surface Reflectance data.
 
 ## How to use the jupyter notebook template
+The Jupyter Notebook templates are located in the src folder. Duplicate the Jupyter Notebook template of interest in the Google Colab editor. Using the templates, it is possible to detect water hyacinth in rivers using Sentinel-2 SR imagery, and estimating the area and seasonality of water hyacinth. A Sentinelhub + Google Colab account is required, as well as uploading the shapefile, geometries of the area of interest. A shapefile is provided in the **data/input** folder, corresponding to a large share of the Saigon river, Vietnam. 
